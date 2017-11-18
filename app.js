@@ -7,6 +7,5 @@ require('./config/database')(config[env]);
 require('./config/express')(app, config[env]);
 require('./config/passport')();
 require('./config/routes')(app);
-require("./index.hbs")
 
 module.exports = app;
